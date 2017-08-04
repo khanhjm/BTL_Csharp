@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{972CA12C-5669-4F68-A196-3E18CC814B3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL</RootNamespace>
+    <AssemblyName>BTL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnectionString.cs" />
+    <Compile Include="HienThi\BanHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\BanHang.Designer.cs">
+      <DependentUpon>BanHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\FormParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\FormParent.Designer.cs">
+      <DependentUpon>FormParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\HangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\HangHoa.designer.cs">
+      <DependentUpon>HangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\Nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\Nhanvien.Designer.cs">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\NhomHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\NhomHang.designer.cs">
+      <DependentUpon>NhomHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HienThi\XemHoadonbanhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HienThi\XemHoadonbanhang.Designer.cs">
+      <DependentUpon>XemHoadonbanhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaoReport\BTL.cs">
+      <DependentUpon>BTL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TaoReport\BTL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BTL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TaoReport\CrystalReport_tblHanghoa.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_tblHanghoa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaoReport\CrystalReport_tblHoadonbanhang.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport_tblHoadonbanhang.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaoReport\Report_Hoadon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Hoadon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TaoReport\Report_tblHanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoReport\Report_tblHanghoa.Designer.cs">
+      <DependentUpon>Report_tblHanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaoReport\Report_tblHoadonbanhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaoReport\Report_tblHoadonbanhang.Designer.cs">
+      <DependentUpon>Report_tblHoadonbanhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThucThe\tblHangban.cs" />
+    <Compile Include="ThucThe\tblHanghoa.cs" />
+    <Compile Include="ThucThe\tblHangnhap.cs" />
+    <Compile Include="ThucThe\tblHoadonbanhang.cs" />
+    <Compile Include="ThucThe\tblHoadonnhaphang.cs" />
+    <Compile Include="ThucThe\tblNhanvien.cs" />
+    <Compile Include="ThucThe\tblNhomhang.cs" />
+    <Compile Include="XuLy\XuLy_tblHangban.cs" />
+    <Compile Include="XuLy\XuLy_tblHanghoa.cs" />
+    <Compile Include="XuLy\XuLy_tblHangnhap.cs" />
+    <Compile Include="XuLy\XuLy_tblHoadonbanhang.cs" />
+    <Compile Include="XuLy\XuLy_tblHoadonnhaphang.cs" />
+    <Compile Include="XuLy\XuLy_tblNhanvien.cs" />
+    <Compile Include="XuLy\XuLy_tblNhomhang.cs" />
+    <EmbeddedResource Include="HienThi\BanHang.resx">
+      <DependentUpon>BanHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\FormParent.resx">
+      <DependentUpon>FormParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\HangHoa.resx">
+      <DependentUpon>HangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\Nhanvien.resx">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\NhomHang.resx">
+      <DependentUpon>NhomHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HienThi\XemHoadonbanhang.resx">
+      <DependentUpon>XemHoadonbanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TaoReport\CrystalReport_tblHanghoa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_tblHanghoa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoReport\CrystalReport_tblHoadonbanhang.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport_tblHoadonbanhang.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoReport\Report_Hoadon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Hoadon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoReport\Report_tblHanghoa.resx">
+      <DependentUpon>Report_tblHanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaoReport\Report_tblHoadonbanhang.resx">
+      <DependentUpon>Report_tblHoadonbanhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TaoReport\BTL.xsc">
+      <DependentUpon>BTL.xsd</DependentUpon>
+    </None>
+    <None Include="TaoReport\BTL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BTL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TaoReport\BTL.xss">
+      <DependentUpon>BTL.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

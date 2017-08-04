@@ -1,0 +1,74 @@
+E:\BTLHSK\BTL\BTL\bin\Debug\BTL.exe.config
+E:\BTLHSK\BTL\BTL\bin\Debug\BTL.exe
+E:\BTLHSK\BTL\BTL\bin\Debug\BTL.pdb
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.Form1.resources
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.FormParent.resources
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.exe
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.pdb
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.BanHang.resources
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.XemHoadonbanhang.resources
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Shared.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\FlashControlV71.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\ShockwaveFlashObjects.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\stdole.dll
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.TaoReport.Report_tblHoadonbanhang.resources
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+E:\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Web.dll
+E:\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.Nhanvien.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\BTL.exe.config
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.exe
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.pdb
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\BTL.exe
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\BTL.pdb
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Shared.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\FlashControlV71.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.Web.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\ShockwaveFlashObjects.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\bin\Debug\stdole.dll
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.csprojResolveAssemblyReference.cache
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.BanHang.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.FormParent.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.HangHoa.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.Nhanvien.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.NhomHang.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.HienThi.XemHoadonbanhang.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.Properties.Resources.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.TaoReport.Report_tblHoadonbanhang.resources
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.csproj.GenerateResource.Cache
+E:\Microsoft Visual Studio 2015\BTLHSK\BTL\BTL\obj\Debug\BTL.TaoReport.Report_tblHanghoa.resources
